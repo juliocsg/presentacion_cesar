@@ -1,0 +1,237 @@
+/*--------------------------
+    Estilos personalizados
+----------------------------*/
+body {
+    font-family: 'PT Sans', sans-serif;
+    min-height: 740px;    
+    
+    background: #bfd255; 
+    background: -moz-linear-gradient(top, #bfd255 0%, #8eb92a 50%, #72aa00 51%, #9ecb2d 100%); 
+    background: -webkit-linear-gradient(top, #bfd255 0%,#8eb92a 50%,#72aa00 51%,#9ecb2d 100%); 
+    background: linear-gradient(to bottom, #bfd255 0%,#8eb92a 50%,#72aa00 51%,#9ecb2d 100%); 
+
+    
+    
+}
+
+.step {
+    position: relative;
+    width: 900px;
+    padding: 40px;
+    margin: 20px auto;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing:    border-box;
+    -ms-box-sizing:     border-box;
+    -o-box-sizing:      border-box;
+    box-sizing:         border-box;
+
+    font-family: 'PT Serif', georgia, serif;
+    font-size: 48px;
+    line-height: 1.5;
+}
+
+#impress .step .substep {
+    opacity: 0;
+}
+
+#impress .step .substep.substep-visible {
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+.slide {
+    display: block;
+
+    width: 800px;
+    height: 600px;
+    padding: 30px 50px;
+
+    
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, .3);
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
+
+    color: #444;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, .1);
+
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+}
+
+/*--------------------------
+    Estilos personalizados
+----------------------------*/
+body {
+    font-family: 'PT Sans', sans-serif;
+    min-height: 740px;
+
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#499bea+0,207ce5+100;Blue+3d+%237 */
+    background: rgb(73,155,234); /* Old browsers */
+    background: -moz-linear-gradient(-45deg, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, rgba(73,155,234,1) 0%,rgba(32,124,229,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, rgba(73,155,234,1) 0%,rgba(32,124,229,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+
+
+
+    color: white;
+}
+
+.step {
+    position: relative;
+    width: 900px;
+    padding: 40px;
+    margin: 20px auto;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing:    border-box;
+    -ms-box-sizing:     border-box;
+    -o-box-sizing:      border-box;
+    box-sizing:         border-box;
+
+    font-family: 'PT Serif', georgia, serif;
+    font-size: 48px;
+    line-height: 1.5;
+}
+
+.slide {
+    display: block;
+
+    width: 1200px;
+    height: 700px;
+    padding: 30px 50px;
+
+
+    background: rgb(255,255,255); /* Old browsers */
+    background: -moz-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, rgba(255,255,255,1) 0%,rgba(246,246,246,1) 47%,rgba(237,237,237,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, rgba(255,255,255,1) 0%,rgba(246,246,246,1) 47%,rgba(237,237,237,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+    border: 1px solid rgba(0, 0, 0, .3);
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
+
+    color: #444;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, .1);
+
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+}
+
+.slide p {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.slide h2 {
+    text-align: center;    
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff670f+0,ff670f+100;Orange+Flat+%231 */
+    background: rgb(255,103,15); /* Old browsers */
+    background: -moz-linear-gradient(-45deg, rgba(255,103,15,1) 0%, rgba(255,103,15,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, rgba(255,103,15,1) 0%,rgba(255,103,15,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, rgba(255,103,15,1) 0%,rgba(255,103,15,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+
+    border-radius: 0 0 0 0;
+
+    color: white;
+}
+
+
+img {
+    width: 300px
+}
+
+/* 
+======================================= 
+POSICIONAMIENTO DE LAS IMAGENES 
+======================================= 
+*/
+
+.slide .right {
+    float: right;
+    margin-left:   40px;
+    margin-right:   0px;    
+    margin-bottom: 20px;
+}
+.slide .left {
+    float: left;
+    margin-right:  40px;
+    margin-left:    0px;
+    margin-top: -40px;    
+    margin-bottom: 20px;
+}
+.slide .top {
+    position: absolute;
+    top: 20px;
+    margin-bottom:  20px;
+    margin-top:      0px;    
+}
+
+.slide .bottom {
+    position: absolute;
+    bottom: 20px;
+    margin-bottom:   0px;
+    margin-top:     20px;    
+}
+
+
+/* Highlight.js used for coloring pre > code blocks. */
+
+.slide pre {
+
+}
+.slide pre > code {    
+    font-size: 16px;
+    text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+}
+
+
+.slide pre > code.grande {
+    font-size: 22px !important;
+}
+
+.slide pre > code.medio {
+    font-size: 19px !important;
+}
+
+
+.arrow-wrapper {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    padding: 30px 50px;
+}
+
+.arrow-wrapper .arrow {
+    color: #444;
+    font-weight: bold;
+    font-size: 60px;   
+}
+
+.arrow-wrapper .arrow:hover {        
+    cursor: pointer;
+}
+
+
+
+
+.arrow-wrapper {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    padding: 30px 50px;
+}
+
+.arrow-wrapper .arrow {
+    color: #444;
+    font-weight: bold;
+    font-size: 60px;   
+}
+
+.arrow-wrapper .arrow:hover {        
+    cursor: pointer;
+}
+
